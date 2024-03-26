@@ -8,7 +8,7 @@ small comparison of different cnn for multiclass image classification
 To use this project with win_amd64 use [Miniconda](https://docs.anaconda.com/free/miniconda/).
 We used the following version: `Conda 24.1.2 Python 3.12.1 released Feb 27, 2024`
 
-For this project used the generated conda environment.yml file:
+For this project use the generated conda environment.yml file:
 ```
 conda env create -f environment.yml
 ```
