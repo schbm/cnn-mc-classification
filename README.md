@@ -23,8 +23,19 @@ It includes the following dependencies:
 ### Dataset
 [Animal Species Classification - V3](https://www.kaggle.com/datasets/utkarshsaxenadn/animal-image-classification-dataset) with `CC0: Public Domain` license. 
 
-In the notebook set the `training_data_path` and the `validation_data_path` to the valid directory path.
-Both location should contain the subfolders of the data classes containing the images of the corresponding class.
+In the notebook set the `data_path` variable or set the os env `aiap_data_path`to the path to the data directory.
+Only keep the subdirectory of the classes you want to train on.
+In our case we use the ten classes:
+- Cow
+- Dog
+- Elephant
+- Gorilla
+- Hippo
+- Lizard
+- Monkey
+- Panda
+- Tiger
+- Zebra
 
 # Project Structure
 - Doc
