@@ -18,6 +18,7 @@ It includes the following dependencies:
 - Numpy
 - Pandas
 - Matplotlib
+- Scikit Learn
 
 
 ### Dataset
@@ -70,3 +71,8 @@ Add the following env variable:
 os.environ['KMP_DUPLICATE_LIB_OK']='True' #Workaround for kernel crash because multiple copies of the OpenMP runtime have been linked
 ```
 This allows the program to work with multiple linked OpenMP runtimes. This may lead to problems.
+
+## Exporting Env
+```
+conda env export > environment.yml
+```
