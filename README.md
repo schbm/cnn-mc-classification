@@ -76,3 +76,5 @@ This allows the program to work with multiple linked OpenMP runtimes. This may l
 ```
 conda env export > environment.yml
 ```
+# Final Evaluation
+![True - Confusion Matrix - Model 3](true_confusion_matrix_model3.jpeg)
