@@ -78,3 +78,4 @@ conda env export > environment.yml
 ```
 # Final Evaluation
 ![True - Confusion Matrix - Model 3](true_confusion_matrix_model3.jpeg)
+![Accuracy - Model 3](acc_model3.jpeg)
